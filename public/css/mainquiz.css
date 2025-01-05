@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    color: black;
+  }
+  
+  
+  /* Main content */
+  .main {
+    margin-top: 32px; /* Add a top margin to avoid content overlay */
+  }
+  
+  
+  .content{
+    margin-top: 100px;
+  }
+  
+  
+  .nav-title{
+    margin-top: 11px;
+    font-size: 38px;
+    color: white;
+    display: flex;
+  }
+  
+  
+  .logo{
+    height: 50px;
+    width: 50px;
+  }
+  
+  
+  .form-inline{
+    margin-left: 1280px;
+    margin-top: -50px;
+    padding-bottom: 20px;
+  }
+  
+  
+  .search{
+    height: 33px;
+    width: 220px;
+    margin-left: -150px;
+  }
+  
+  
+  .fa-search{
+    color: white;
+    margin-left: 8px;
+  }
+
+#wrapper{
+    height: 100vh;
+    overflow-y: hidden;
+    background-color: black;
+    overflow-y: scroll;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.topic{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 56px;
+    color: white;
+}
+
+.topicslist{
+    margin-top: -25px;
+    margin-left: 355px;
+    font-size: 30px;
+    line-height: 45px;
+    list-style-type: none;
+    color: white;
+}
+
+button{
+    background-color: white;
+    height: 35px;
+    width: 190px;
+    text-align: left;
+    font-size: 26px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+}
+
+.arr{
+    position: relative;
+    display: inline; 
+}
+
+.arr-btn{
+    width: 110px;
+    color: white;
+}
+
+a{
+    font-size: 20px;
+    line-height: 20px;
+    display: block;
+}
+
+.arr-content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 1px 1px 1px 1px;
+    z-index: 1;
+    margin-left: 110px;
+    margin-top: -60px;
+}
+
+.arr-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.arr-content a:hover {background-color: #dddddd6e;}
+
+.arr:hover .arrh {color: hotpink;}
+
+
+.arr:hover .arr-content {
+    display: block;
+}
+
+.arrh{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+.ll{
+    position: relative; 
+    display: inline;
+}
+
+.llh{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+.ll-btn{
+    width: 185px;
+    color: white;
+
+}
+
+.ll-content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 1px 1px 1px 1px white;
+    z-index: 1;
+    margin-left: 185px;
+    margin-top: -65px;
+}
+
+.ll-content a {
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.ll-content a:hover {background-color: #dddddd6e;}
+
+.ll:hover .ll-content {display: block;}
+
+.ll:hover .llh {color: rgb(72, 159, 221);}
+
+
+.st{
+    position: relative; 
+    display: inline;
+}
+
+.st-btn{
+    width: 100px;
+    color: white;
+
+}
+
+.sth{
+    text-decoration: none;
+    font-size: 30px;
+}
+.st:hover .sth {color: rgb(72, 159, 221);}
+
+
+
+.qu{
+    position: relative; 
+    display: inline;
+}
+
+.quh{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.qu-btn{
+    width: 100px;
+    color: white;
+
+}
+
+.qu:hover .quh {color: #9f47e7;}
+
+
+
+.bt{
+    position: relative; 
+    display: inline;
+}
+
+.bt-btn{
+    width: 200px;
+    color: white;
+
+}
+
+.bth{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.bt-trav-con{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 1px 1px 1px 1px white;
+    z-index: 1;
+    margin-left: 165px;
+    margin-top: -65px;
+}
+
+.bt-trav-con a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.bt-trav-con a:hover {background-color: #dddddd6e;}
+
+.trav:hover .bt-trav-con {display: block;}
+
+.bt:hover .bth {color: hotpink;}
+
+.trav-btn{
+    color: white;
+    font-size: 20px;
+    margin-top: -2px;
+    margin-left: 14px;
+    line-height: 20px;
+    display: block;
+
+}
+
+.bt-content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 1px 1px 1px 1px white;
+    z-index: 1;
+    margin-left: 200px;
+    margin-top: -65px;
+}
+
+.bt-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.bt-content a:hover {background-color: #dddddd6e;}
+
+.bt-content .trav:hover {background-color: #dddddd6e;}
+
+.bt:hover .bt-content {display: block;}
+
+.bst{
+    position: relative; 
+    display: inline;
+}
+
+.bst-btn{
+    width: 310px;
+    color: white;
+
+}
+
+.bst:hover .bsth {color: rgb(72, 159, 221);}
+
+.bst-content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 1px 1px 1px 1px white;
+    z-index: 1;
+    margin-left: 310px;
+    margin-top: -85px;
+}
+
+.bst-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.bst-content a:hover {background-color: #dddddd6e;}
+
+.bst:hover .bst-content {display: block;}
+
+
+
+.gr{
+    position: relative; 
+    display: inline;
+}
+
+.gr-btn{
+    width: 130px;
+    color: white;
+
+}
+
+.gr:hover .grh {color: #9f47e7;}
+
+
+.gr-content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 210px;
+    box-shadow: 1px 1px 1px 1px white;
+    z-index: 1;
+    margin-left: 130px;
+    margin-top: -90px;
+}
+
+.gr-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.gr-content a:hover {background-color: #dddddd6e;}
+
+.gr:hover .gr-content {display: block;}
+
+.gr:hover .grh{color: hotpink;}
+
+
+.sor{
+    position: relative; 
+    display: inline;
+}
+
+.sor-btn{
+    width: 130px;
+    color: white;
+
+}
+
+.sor:hover .sorh {color: #9f47e7;}
+
+
+.sor-content{
+    display: none;
+    position: absolute;
+    min-width: 190px;
+    box-shadow: 1px 1px 1px 1px white;
+    background-color: black;
+    z-index: 1;
+    margin-left: 130px;
+    margin-top: -130px;
+}
+
+.sor-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.sor-content a:hover {background-color: #dddddd6e;}
+
+.sor:hover .sor-content {display: block;}
+
+.alg{
+    position: relative; 
+    display: inline;
+}
+
+.alg-btn{
+    width: 180px;
+    color: white;
+
+}
+
+.alg:hover .algh {color: rgb(72, 159, 221);}
+
+.alg-content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 270px;
+    box-shadow: 1px 1px 1px 1px white;
+    z-index: 1;
+    margin-left: 180px;
+    margin-top: -190px;
+}
+
+.alg-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.alg-content a:hover {background-color: #dddddd6e;}
+
+.alg:hover .alg-content {display: block;}
+
+.sear{
+    position: relative; 
+    display: inline;
+}
+
+.sear-btn{
+    width: 170px;
+    color: white;
+
+}
+
+.sear-content{
+    display: none;
+    position: absolute;
+    min-width: 180px;
+    box-shadow: 1px 1px 1px 1px #ffffff;
+    z-index: 1;
+    margin-left: 170px;
+    margin-top: -65px;
+}
+
+.sear-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.sear-content a:hover {background-color: #dddddd6e;}
+
+.sear:hover .sear-content {display: block;}
+
+.sear:hover .searh {color: hotpink;}
+

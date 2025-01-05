@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Selection</title>
+    <link rel="stylesheet" href="/randomques.css">
+    <link href='https://fonts.googleapis.com/css?family=Source Sans 3' rel='stylesheet'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav class="navbar" >
+    <a class="navbar-brand" href="#">
+        <img src="/media/logocc.jpg" width="30" height="30" class="logo" alt="">
+       
+    </a>
+    <p class="nav-title">CodeCanvas</p>
+   
+    <form class="form-inline">
+      <input class="search" type="search" placeholder="Search" aria-label="Search">
+        <i class="fa fa-search" style="font-size:25px"></i>              
+    </form>
+  </nav> 
+  <br><br><br><br>
+    <div class="dropdown-container">
+        <label for="topic-select" class="seltop">Select topic:</label>
+        <select id="topic-select">
+            <option value="Array">Array</option>
+            <option value="LinkedList">Linked List</option>
+            <option value="Searching">Searching</option>
+            <option value="Sorting">Sorting</option>
+            <option value="Stack">Stack</option>
+            <option value="Queues">Queues</option>
+            <option value="BinaryTree">Binary Tree</option>
+            <option value="BinarySearchTree">Binary Search Tree</option>
+            <option value="Graph">Graph</option>
+            <option value="Algorithms">Algorithms</option>
+
+        </select>
+
+        <label for="level-select" class="seldiff">Select difficulty level:</label>
+        <select id="level-select">
+            <option value="Easy">Easy</option>
+            <option value="Moderate">Moderate</option>
+            <option value="Hard">Hard</option>
+        </select>
+
+        <button onclick="displaySelection()" class="gen">Generate question</button>
+
+    </div>
+    
+      <div>
+      </div>
+      <div class="ques-comp">
+        <div class="ques">
+          <div id="output">Your selections will appear here...</div> <br>
+          <div id="question">Loading question...</div>
+        </div>
+          
+        
+        <div class="compiler">
+          <h2 class="headings">Compiler</h2>
+          <div class="com-area">
+            <textarea name="" id="comp-color" cols="46" rows="12"></textarea>
+                    
+          </div>
+        </div>
+      </div>
+      
+    
+    <script src="randomques.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/randomques.css">
+
+</head>
+<body>
+    <h1>Random Question Generator</h1>
+    <div class="dropdown">
+        <button onclick="myFunction1()" class="dropbtn">Topic</button>
+        <div id="myDropdown1" class="dropdown-content">
+          <a href="#">Array</a>
+          <a href="#">Linked List</a>
+          <a href="#">Searching</a>
+          <a href="#">Searching</a>
+          <a href="#">Sorting</a>
+          <a href="#">Stack</a>
+          <a href="#">Queues</a>
+          <a href="#">Binary Tree</a>
+          <a href="#">Binary Search Tree</a>
+          <a href="#">Graph</a>
+          <a href="#">Algorithms</a>
+
+
+        </div>
+      </div>
+      <div class="dropdown">
+        <button onclick="myFunction2()" class="dropbtn">Difficulty level</button>
+        <div id="myDropdown2" class="dropdown-content">
+          <a href="#">Easy</a>
+          <a href="#">Moderate</a>
+          <a href="#">Hard</a>
+        </div>
+      </div>
+      <h3>Select topic and difficulty level for a random question to appear here</h3>
+    
+      <script src="/randomques.js"></script>
+</body>
+</html> -->

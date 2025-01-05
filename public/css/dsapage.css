@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+    color: white;
+  }
+  
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    color: black;
+  }
+  
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+  
+  
+  .content{
+    margin-top: 100px;
+  }
+  
+  
+  .nav-title{
+    margin-top: 10px;
+    font-size: 40px;
+    color: white;
+    display: flex;
+  }
+  
+  
+  .logo{
+    height: 50px;
+    width: 50px;
+  }
+  
+  
+  .form-inline{
+    margin-left: 1280px;
+    margin-top: -50px;
+    padding-bottom: 20px;
+  }
+  
+  
+  .search{
+    height: 33px;
+    width: 220px;
+    margin-left: -150px;
+  }
+  
+  
+  .fa-search{
+    color: white;
+    margin-left: 8px;
+  }
+  
+  
+  
+  
+  
+  
+  .bg{
+    width: 1960px;
+    height: 1000px;
+  
+  
+    overflow: hidden;
+    margin: -3px;
+  }
+  
+  
+  #wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  
+  .container{
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: #000000;
+  }
+  
+  
+  .title{
+    margin-top: 60px;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 54px;
+    font-family: 'Source Sans 3';
+  }
+  
+  
+  .definition{
+    font-size: 20px;
+    font-weight: 350;
+    margin-left: 20px;
+    margin-top: -5px;
+   
+  }
+  
+  
+  .headings{
+    margin-top: 24px;
+    margin-left: 20px;
+    font-size: 33px;
+  }
+  
+  
+  .def{
+    margin-top: 0px;
+  }
+  
+  
+  
+  
+  .steps{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: -5px;
+  }
+  
+  
+  .topic-animation{
+    margin-left: 18px;
+    margin-top: -2px;
+    border-color: white;
+  }
+  
+  
+  .try{
+    height: 750 px;
+    width: 495px;
+  }
+  
+  
+  .code{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: -2px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #333333;
+    font-family: "Lucida Console", Monaco, monospace;
+    width: 625px;
+    height: 475px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    /*scrollbar-color: rgb(216, 125, 216) rgb(113, 36, 123);*/
+  }
+  
+  
+  .animation-code{
+    display: flex;
+    gap: 10px;
+  }
+  
+  
